@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+
+# Generated experiment outputs
+results*/
+eval_efficient*_results/
+summary.txt
+spurious_results.json
+vllm_server.log
+slurm-*.out
+
+# Local datasets and archives
+gpqa*/
+mmlu*/
+*.zip
+
+# Notes, figures, and paper artifacts
+*.ipynb
+*.pdf
+*.png
+
+# Local assistant/editor state
+.claude/
+
+# Cluster launchers are intentionally excluded from this source release.
+scripts/
+*.sh
+*.bash
