@@ -4,8 +4,6 @@ Official implementation of [Spurious Prompts: Can Irrelevant Prompts Steer Large
 
 This repository studies whether system prompts that are semantically unrelated to a task can still steer large language model behavior. This source release contains the code needed to search for such prompts with a black-box evolutionary loop and evaluate discovered candidates on held-out examples.
 
-Code repository: [Batorskq/spurious](https://github.com/Batorskq/spurious)
-
 ## Method
 
 The search loop is intentionally simple:
